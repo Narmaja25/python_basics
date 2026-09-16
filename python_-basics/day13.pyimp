@@ -1,0 +1,140 @@
+#while loop
+n = 5 
+while True:
+  user_input = input("Type 'exit' to stop the loop: ") 
+
+  if user_input.lower() == 'exit':
+      print("Goodbye!")
+      break
+
+  print(f"you typed:  {user_input}")
+#     print('Hello')
+#     print('Good Bye') 
+# print('Outside')
+
+n = 5 
+while n >= 0:
+    print(n, end=' ')
+    n -= 1 
+print('Outside')
+
+n = 5 
+while n <= 10:
+    print(n, end=' ')
+    n += 1 
+print('Outside')
+
+n = 5
+while n <= 10:
+    if n == 7:
+        n += 1
+        continue 
+    print(n, end=' ')
+    n += 1
+else:
+    print('Loop Successful')
+
+n = 5
+while n >= 0:
+    if n == 3:
+        break 
+    print(n, end=' ')
+    n -= 1
+else:
+    print('Loop Successful')
+print()
+
+#print 1 to 20 with while loop
+n = 1 
+while n <= 20:
+    print(n, end=' ')
+    n += 1 
+print()
+#print even numbers from 1 to 20
+n = 2
+while n <= 20:
+    print(n, end=' ')
+    n += 2
+print()
+#print numbers divisible by both 5 and 7 from 1 to 500 
+n = 1 
+while n <= 600:
+    if n % 6 == 0 and n % 8 == 0:
+        print(n, end=' ')
+    n += 1 
+print()
+
+#count digits
+n = 123456789
+count = 0
+# Loop runs as long as n is greater than 0
+while n > 0:
+    n = n // 10 # Removes the last digit
+    count += 1  # Increase count by 1 
+print(f'Number of digits in the given number is: {count}')
+
+#reverse a number
+n = 123456789
+temp = abs(n)
+rev = 0
+while temp > 0:
+    last_digit = temp % 10 
+    rev = rev*10 + last_digit 
+    temp //= 10 
+if n < 0:
+    rev = -rev 
+print(f'Reverse of the given number is {rev}')
+
+#palindrome number
+n = 12121
+temp = abs(n)
+rev = 0
+while temp > 0:
+    last_digit = temp % 10 
+    rev = rev*10 + last_digit 
+    temp //= 10 
+if n < 0:
+    rev = -rev 
+if rev == n:
+    print('Palindrome')
+else:
+    print('Not a Palindrome')
+
+
+#armstrong number
+# Input number
+n = 153  #If its true print a Armstrong number
+print("Armstrong Number")
+n = 123  #If its not true print it is Not an Armstrong number
+print("Not a Armstrong Number")
+total_digits = len(str(n)) 
+sum = 0 
+temp = n 
+while temp > 0:
+    last_digit = temp % 10 
+    sum += last_digit ** total_digits 
+    temp //= 10 
+if n == sum:
+    print('Armstrong Number')
+else:
+    print('Not a Armstrong Number')
+
+
+# 12. Check palindrome string slicing([::-1])
+
+def is_palindrome(text):
+    #Normalize string:lower the case and remove spaces
+    cleaned_text = text.lower().replace(" ", " ")
+    #Compare original cleaned text with its reverse
+
+    return cleaned_text == cleaned_text[::-1]
+
+
+# Test cases
+word1 = 'Racecar' 
+word2 = 'Python'  
+phrase = 'A nut for a jar of a tuna' 
+
+print(f"'{word1}' is a palindrome: {is_palindrome(word1)}")
+print(f"'{word2}' is a palindrome: {is_palindrome(word2)}")
+print(f"'{phrase}' is a palindrome: {is_palindrome(phrase)}")
