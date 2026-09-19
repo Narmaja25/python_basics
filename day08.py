@@ -12,7 +12,7 @@ if __name__ == '__main__':
     else:
         print("Not Weird")
 
-        https://www.hackerrank.com/challenges/write-a-function/problem
+    https://www.hackerrank.com/challenges/write-a-function/problem
 
 def is_leap(n):
 
