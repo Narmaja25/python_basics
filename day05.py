@@ -7,7 +7,7 @@ print(s)
 s.append([1,2,3])
 print(s)
 
-#extend 
+# extend 
 b=[1,2,3,4]
 b.extend([1,2,3])
 print(b)
