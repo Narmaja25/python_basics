@@ -23,6 +23,7 @@ for x in numbers:
     if x % 2==1:
         continue
         print(x, end=' ')
+        
 #when number 2 comes stop printing 
 for x in numbers:
     if x ==2:
