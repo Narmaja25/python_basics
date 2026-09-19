@@ -130,7 +130,7 @@ def is_palindrome(text):
     return cleaned_text == cleaned_text[::-1]
 
 
-# Test cases
+#Test cases
 word1 = 'Racecar' 
 word2 = 'Python'  
 phrase = 'A nut for a jar of a tuna' 
