@@ -22,7 +22,6 @@ Write Output:
 A, outside
 '''
 
-
 #TASK 3:
 n = 10 
 if n % 10 == 0:
