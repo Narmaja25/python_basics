@@ -22,6 +22,7 @@ print(numbers[::-1])
 # Formatting f-strings
 name = "Narmaja"
 age = 30
+
 # f-strings approach (Recommended)
 print(f"Hello, my name is {name} and I am {age} years old.")
 # .format() approach
