@@ -15,7 +15,7 @@ print(a.strip())
 print(a.lstrip())
 print(a.rstrip())
 
-#update # replace
+#update  # replace
 a=('Narmaja is a hard worker', 'Narmaja is smart', 'Narmaja is a Monster') #error: 'tuple' object has no attribute 'replace'
 print(a)
 #b=a.replace('Narmaja','Monster',1)
