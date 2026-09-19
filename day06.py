@@ -18,6 +18,7 @@ k.add(range(1,2,3))
 k.add((4,5,6))
 #k.add({1:2 , 2:3}) #error,m set will not allow dict
 print(k)
+
 #add 5 non-sequences and 5 sequences with update method
 k=set()
 #k.update(2002)   # cannot add non-sequences int with update
