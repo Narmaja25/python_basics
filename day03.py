@@ -47,7 +47,7 @@ print(b)
 c = not False
 print(c)
 
-#Assignment operators (=, +=, -=, *=, /=, %=, //=, **=)
+#Assignment operators  (=, +=, -=, *=, /=, %=, //=, **=)
 a = 500   #a = a*20
 a*= 20
 print(a) 
