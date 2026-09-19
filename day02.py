@@ -14,7 +14,6 @@ print(type(a))
 a = None #none value
 print(type(a))
 
-
 #sequences
 
 #list
