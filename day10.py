@@ -58,7 +58,7 @@ for i in range(1, 11):
 else:
     print('All numbers printed')
 
-#print numbers from 10 to 1, when 5 comes stop printing, when all numbers are print, print 'All numbers printed'
+#print numbers from 10 to 1, when 5 comes stop printing, when all numbers are print,print 'All numbers printed'
 for i in range(10, 0, -1):
     if i == 5:
         break
