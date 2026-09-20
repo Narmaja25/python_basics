@@ -55,7 +55,7 @@ print("\n----- 3. Syntax Error Examples -----")
 # if = 21              # Using keyword as variable
 #     b = 20           # Incorrect indentation
 # if 10                # Missing colon
-#     print(True)
+#    print(True)
 
 print("Syntax error examples are commented out.")
 
