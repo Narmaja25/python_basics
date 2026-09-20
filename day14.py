@@ -3,7 +3,7 @@
 # Outer loop
 colors = ['red', 'green', 'blue']
 
-# Inner loop
+#Inner loop
 items = ['apple', 'banana', 'pencil']
 
 for color in colors: #outer loop
