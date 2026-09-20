@@ -9,6 +9,7 @@ for i in range(n):
 print(password)
 
 #ATM 
+
 import getpass
 balance = 0 
 print('Set your ATM Pin: ')
