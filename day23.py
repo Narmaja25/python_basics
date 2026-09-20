@@ -35,7 +35,6 @@ with smtplib.SMTP('smtp.gmail.com', 587) as conn:
 print('Message sent successfully')
 
 
-
 # Bulk mail sending with Subject and attachments
 sender = 'narmajauppalapati@gmail.com' 
 sender = 'narmajauppalapati@gmail.com' 
