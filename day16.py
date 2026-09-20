@@ -23,7 +23,7 @@ print(palindrome_number(121))       # Output: Palindrome
 print(palindrome_number(123))       # Output: Not a Palindrome
 
 
-# 2. Function for Palindrome String
+# 2.Function for Palindrome String
 
 def palindrome_string(s):
     reverse = ""
