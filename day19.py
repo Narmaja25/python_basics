@@ -49,7 +49,7 @@ print()
 print()
 
 
-# Sys module
+#Sys module
 print('----------------Sys Module----------------')
 print('Python version:', sys.version)
 print('Python executable:', sys.executable)
