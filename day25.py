@@ -76,7 +76,7 @@ print(calc1.c)          # 30
 # calc2 does not have c
 # print(calc2.c)        # AttributeError
 
-# Add a variable to the Calculator class
+#Add a variable to the Calculator class
 Calculator.version = 2
 
 print(Calculator.version)   # 2
