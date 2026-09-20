@@ -51,6 +51,7 @@
 # print(f.readlines(2))  
 # print(f.readlines(0))   
 
+
 #for loop
 f = open('e.txt', 'w')
 f.writelines(['abc\n', 'def\n', 'ghi\n', 'jkl'])
