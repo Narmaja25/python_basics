@@ -7,7 +7,7 @@ from datetime import datetime
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
-#Speak function, when called assistant speaks the text
+#Speak function, when called assistant will speaks the text
 def speak(text):
     print("Assistant:", text)
     engine.say(text)
