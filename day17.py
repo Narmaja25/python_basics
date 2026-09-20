@@ -19,7 +19,7 @@ matrix = [[1,2], [3,4], [5,6]]
 flattened = [num for row in matrix for num in row]
 print(flattened)
 
-# Defining the generator function
+#Defining the generator function
 def my_generator(max_limit):
     current = 1
     while current <= max_limit:
