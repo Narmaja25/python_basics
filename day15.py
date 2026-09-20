@@ -30,7 +30,7 @@ for i in range(1, n+1):
             print(' ', end='')
     print()
     
-#star (zero based indexing)
+#star(zero based indexing)
 for i in range(n):
     for j in range(n):
         if i == n//2 or j == n//2 or i == j or j == n-i-1:
