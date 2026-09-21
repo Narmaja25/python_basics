@@ -95,6 +95,7 @@ person1 = Person()
 print(person1.age)
 person1.age = 45
 print(person1.age) 
+
 #deleter executes only when explicitly called
 del person1.age 
 print()
