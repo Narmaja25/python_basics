@@ -101,6 +101,7 @@ del person1.age
 print()
 
 #cannot call methods explicitly (no attribute _age)
+
 print(person1.age(50)) #we can't call the person age Explicitly
 print(person1.age())
 print(person1.age())
@@ -159,6 +160,7 @@ print(hasattr(calc1, 'version'))
 #Inner class 
 class Car:
     class Engine:
+        
         def sound(s):
             print('Wrooom')
 engine1 = Car.Engine()
