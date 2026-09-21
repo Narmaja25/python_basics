@@ -62,10 +62,10 @@ class Vehicle(ABC):
   @abstractmethod
   def engine(s):
     pass
-v = Vehicle()      #cannot create object if there are abstract methods
+v = Vehicle()       #cannot create object if there are abstract methods
 class Bike(Vehicle):
   pass   
-b = Bike()         #cannot create object if abstract methods are not implemented
+b = Bike()          #cannot create object if abstract methods are not implemented
 class Bike(Vehicle):
   def engine(s):     #implemented the abstract method engine()
     print('200CC')
