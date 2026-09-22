@@ -1,4 +1,4 @@
-##2 Day 28: Employee Management System Project Using OOP and File Handling in Python
+## Day 28: Employee Management System Project Using OOPS in Python & File Handling
 
 ## Features of Employee Management System  in Health and Family Welfare Department:
 
@@ -410,3 +410,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+   #Employee details are saved in health_department_employees.csv.
+   #Promotion, increment, and transfer records are saved in employee_activity_history.csv.
